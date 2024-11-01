@@ -3,7 +3,7 @@ hitung_luas = int(input("""Pilih salah satu:
                         2. Hitung luas lingkaran
                         3. Hitung luas segitiga                      
 """))
-pi = 3.14
+phi = 3.14
 
 match hitung_luas:
     case 1:  
@@ -13,7 +13,7 @@ match hitung_luas:
         
     case 2: 
         radius = float(input("Masukkan jari-jari lingkaran: "))
-        luas_lingkaran = pi * radius ** 2  
+        luas_lingkaran = phi * radius ** 2  
         print(f"Luas lingkaran: {luas_lingkaran}")
         
     case 3:
