@@ -1,11 +1,18 @@
-a = "Nuril Anwar"
-b = "0110224128"
-c = "TI04"
-d = "0838790407251"
-e = "Bekasi"
+kendaraan =['GTR', 'mobil', '5000', 'biru', '2']
+print(kendaraan)
 
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
+kendaraan.append('1M')
+kendaraan.append('Gigi')
+print(kendaraan)
+
+kendaraan.insert(2,'BMW')
+print(kendaraan)
+
+print(type(kendaraan))
+print(type(kendaraan[0]))
+print(type(kendaraan[1]))
+print(type(kendaraan[2]))
+print(type(kendaraan[3]))
+print(type(kendaraan[4]))
+print(type(kendaraan[5]))
+print(type(kendaraan[6]))
